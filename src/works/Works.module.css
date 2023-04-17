@@ -18,3 +18,19 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+@media screen and (max-width: 480px) {
+    .worksBlock {
+        height: auto;
+    }
+    .worksContainer {
+        flex-direction: row;
+    }
+    .title {
+        font-size: 20px;
+        margin: 0 auto;
+    }
+    .works {
+        flex-direction: column;
+    }
+}
